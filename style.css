@@ -8,7 +8,7 @@ svg {
 }
 path {
   fill: none;
-  stroke: #ddd;
+  stroke: rgb(83, 241, 130);
   stroke-width: 0.5px;
   vector-effect: non-scaling-stroke;
 }
