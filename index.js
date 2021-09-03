@@ -35,7 +35,7 @@ var createPathString = function() {
   }else{
     for (var i = 0; i < numberOfLines; i++){    
       startx = path.startX + index * 0.1 * i - i * (i + 1) * index * 0.1 / 80;
-      endx = path.endX - index * 0.05 * i - i * (i + 1) * index * 0.05 / 80;
+      endx = path.endX - index * 0.02 * i - i * (i + 1) * index * 0.02 / 80;
       var newPathSection = 'M' +
       // starting point
       startx +
@@ -73,9 +73,9 @@ var createLines = function() {
 
   for (var i = 0; i < 41; i++) {
     var lineDataObj = {
-      startX: 25 + 2.5 * i,
+      startX: 22 + 2 * i,
       startY: 20,
-      endX: 275 - 3.5 * i, // viewbox = 200
+      endX: 278 - 2 * i, // viewbox = 200
       endY: 180
     }
 
